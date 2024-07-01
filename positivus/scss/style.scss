@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li{
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1980px) {
+    .menu i {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .team-btn {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 1148px) {
+    .header-row {
+        flex-direction: column;
+    }
+
+    // .header-col:last-child {
+    //     order: 2 !important;
+    // }
+
+    // .header-col:first-child {
+    //     order: 3 !important;
+    // }
+
+    // .header-col:first-child p {
+    //     order: 1 !important;
+    // }
+
+    // .header-btn {
+    //     order: 4 !important;
+    // }
+
+    .ser-card-col-left {
+        width: 100%;
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+
+    .ser-card-col-right img {
+        width: 165px;
+        height: 129px;
+    }
+
+    .card-link p {
+        display: none;
+    }
+
+    .ser-card-col {
+        flex-direction: column !important;
+    }
+
+    .contact-right img {
+        display: none !important;
+    }
+
+    .get-card-col img {
+        display: none !important;
+    }
+
+    .get-card-row {
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 1076px) {
+    .case-row {
+        flex-direction: column !important;
+        height: fit-content !important;
+    }
+    .case-line {
+        transform: rotate(90deg) !important;
+    }
+    .navlist {
+        display: none !important;
+    }
+    .navbar-btn {
+        display: none;
+    }
+    .menu i {
+        display: block !important;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1043px) {
+    .logos {
+        display: flex;
+        flex-direction: column
+    }
+    .services-content,
+    .case-content,
+    .work-content,
+    .team-content,
+    .contact-content {
+        flex-direction: column;
+    }
+    .navbar-content {
+        justify-content: space-between !important;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .footer-top {
+        flex-direction: column ;
+        gap: 39px;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+    .footer-links a {
+        text-decoration: none !important;
+    }
+    .header-btn {
+        width: 510px !important;
+    }
+    .footer-contact {
+        flex-direction: column;
+    }
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-left-info {
+        align-items: center;
+    }
+    .footer-right {
+        flex-direction: column;
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 746px) {
+    .input-container input,textarea {
+        width: auto !important;
+    }
+    .form-btn {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 636px) {
+    .header-col img {
+        width: 350px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header-col:first-child {
+        // width: min-content !important;
+        margin: 0 auto !important;
+    }
+    .header-btn {
+        width: auto !important;
+    }
+    .header-col h1,p {
+        width: auto !important;
+    }
+}
+
+@import "navbar.scss";
+@import "header.scss";
+@import "slider.scss";
+@import "service.scss";
+@import "case.scss";
+@import "work.scss";
+@import "team.scss";
+@import "contact.scss";
+@import "footer.scss"

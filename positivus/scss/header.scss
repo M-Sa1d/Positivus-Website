@@ -1,0 +1,49 @@
+.header {
+    margin-top: 70px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-col h1 {
+    /* h1 */
+color: rgb(0, 0, 0);
+font-family: Space Grotesk;
+font-size: 60px;
+font-weight: 500;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: left;
+width: 531px;
+}
+
+.header-col p {
+    color: rgb(0, 0, 0);
+font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+width: 440px;
+padding-top: 35px;
+}
+
+.header-btn {
+    width: 264px;
+    height: 68px;
+    border-radius: 14px;
+    background: rgb(25, 26, 35);
+    color: rgb(255, 255, 255);
+font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+margin-top: 35px;
+}

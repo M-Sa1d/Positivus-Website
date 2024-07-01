@@ -1,0 +1,51 @@
+.navbar {
+    width: 100%;
+    margin-top: 60px;
+    height: 68px;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    height: 68px;
+    width: 100%;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navlist li a {
+    color: rgb(0, 0, 0);
+font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.nav-btn {
+    width: 231px;
+    height: 68px;
+    border: 1px solid rgb(25, 26, 35);
+    border-radius: 14px;
+    background: none;
+    color: rgb(0, 0, 0);
+font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}

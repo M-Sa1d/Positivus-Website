@@ -1,0 +1,125 @@
+.work {
+  margin-top: 140px;
+}
+
+.work-content h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 7px;
+  background: rgb(185, 255, 102);
+  /* h2 */
+  color: rgb(0, 0, 0);
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 51px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.work-content p {
+  /* p */
+  color: rgb(0, 0, 0);
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 292px;
+}
+
+.work-row {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.work-col {
+  border: 1px solid rgb(25, 26, 35);
+  border-radius: 45px;
+  box-shadow: 0px 5px 0px 0px rgb(25, 26, 35);
+  background: rgb(243, 243, 243);
+  padding: 41px 60px;
+  transition: all 0.4s ease-in-out;
+}
+
+.work-col.active {
+  height: 259px;
+  background: rgb(185, 255, 102);
+}
+
+.work-col.active .work-col-bottom {
+  display: block;
+}
+
+.work-col.active .work-line {
+  display: block;
+  width: 100%;
+  height: 0;
+  margin: 30px 0;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.work-col.active .work-col-right i {
+  background: white !important;
+  border-radius: 100%;
+}
+
+.work-col-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-line {
+  display: none;
+}
+
+.work-col-bottom {
+  display: none;
+}
+
+.work-col-left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.work-col-left h1 {
+  color: rgb(0, 0, 0);
+  font-family: Space Grotesk;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 77px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.work-col-left p {
+  color: rgb(0, 0, 0);
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.work-col-right i {
+  font-size: 58px;
+  cursor: pointer;
+}
+
+.work-col-bottom p {
+  /* p */
+  color: rgb(0, 0, 0);
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}/*# sourceMappingURL=work.css.map */

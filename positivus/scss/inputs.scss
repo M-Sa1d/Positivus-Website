@@ -1,0 +1,72 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-input {
+    margin-top: 40px;
+
+}
+
+.email-input,
+.message-area {
+    margin-top: 25px;
+}
+
+.name,
+.email {
+    margin-top: 7px;
+    width: 556px;
+    padding: 18px 30px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 14px;
+outline: none;
+background: rgb(255, 255, 255);
+}
+
+.message {
+    margin-top: 7px;
+    width: 556px;
+    height: 190px;
+    padding: 18px 30px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 14px;
+outline: none;
+background: rgb(255, 255, 255);
+}
+
+.form-btn {
+    width: 556px;
+height: 68px;
+border-radius: 14px;
+background: rgb(25, 26, 35);
+color: rgb(255, 255, 255);
+font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+margin-top: 40px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.check input {
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgb(0, 0, 0);
+border-radius: 29px;
+background: rgb(255, 255, 255);
+}
+
+.check-col {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
